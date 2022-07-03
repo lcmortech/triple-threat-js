@@ -275,7 +275,35 @@ cardDeck = {
             value: 8,
             img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 			//'U+1F0B1 🂱'
-		}
+		},
+    },
+
+    nine: {
+
+        hearts: {
+            name: 'Nine of Hearts',
+            value: 9,
+            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+			//'U+1F0B1 🂱'
+		},
+		diamonds:{
+            name: 'Nine of Diamonds',
+            value: 9,
+            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+			//'U+1F0B1 🂱'
+		},
+		clubs:{
+            name: 'Nine of Clubs',
+            value: 9,
+            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+			//'U+1F0B1 🂱'
+		},
+		spades:{
+            name: 'Nine of Spades',
+            value: 9,
+            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+			//'U+1F0B1 🂱'
+		},
     }
   
 }
