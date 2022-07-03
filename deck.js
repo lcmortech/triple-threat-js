@@ -192,6 +192,34 @@ cardDeck = {
             img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 			//'U+1F0B1 🂱'
 		}
+    },
+
+    six: {
+
+        hearts: {
+            name: 'Six of Hearts',
+            value: 6,
+            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+			//'U+1F0B1 🂱'
+		},
+		diamonds:{
+            name: 'Six of Diamonds',
+            value: 6,
+            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+			//'U+1F0B1 🂱'
+		},
+		clubs:{
+            name: 'Six of Clubs',
+            value: 6,
+            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+			//'U+1F0B1 🂱'
+		},
+		spades:{
+            name: 'Six of Spades',
+            value: 6,
+            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+			//'U+1F0B1 🂱'
+		}
     }
   
 }
