@@ -330,7 +330,7 @@ cardDeck = {
 				value: 10,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
-			},
+			}
 		}
     }
   
