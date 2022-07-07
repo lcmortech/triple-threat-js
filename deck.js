@@ -331,6 +331,34 @@ cardDeck = {
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			}
+		},
+
+		jack: {
+
+			hearts: {
+				name: 'Jack of Hearts',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			diamonds:{
+				name: 'Jack of Diamonds',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			clubs:{
+				name: 'Jack of Clubs',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			spades:{
+				name: 'Jack of Spades',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			}
 		}
     }
   
