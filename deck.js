@@ -359,6 +359,62 @@ cardDeck = {
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			}
+		},
+
+		queen: {
+
+			hearts: {
+				name: 'Queen of Hearts',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			diamonds:{
+				name: 'Queen of Diamonds',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			clubs:{
+				name: 'Queen of Clubs',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			spades:{
+				name: 'Queen of Spades',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			}
+		},
+
+		king: {
+
+			hearts: {
+				name: 'King of Hearts',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			diamonds:{
+				name: 'King of Diamonds',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			clubs:{
+				name: 'King of Clubs',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			spades:{
+				name: 'King of Spades',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			}
 		}
     }
   
