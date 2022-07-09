@@ -55,385 +55,387 @@
 	'Joker B': 10 
 }*/
 
-cardDeck = {
-    ace: {
-            hearts:{
-                name: 'A of Hearts',
-                value: 1,
-                img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+export default function cardDeck() {
+	cardDeck = {
+		ace: {
+				hearts:{
+					name: 'A of Hearts',
+					value: 1,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				diamonds:{
+					name: 'A of Diamonds',
+					value: 1,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				clubs:{
+					name: 'A of Clubs',
+					value: 1,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				spades:{
+					name: 'A of Spades',
+					value: 1,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				}
+
+			},
+		two: {
+			hearts:{
+				name: 'Two of Hearts',
+				value: 2,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			diamonds:{
-                name: 'A of Diamonds',
-                value: 1,
-                img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				name: 'Two of Diamonds',
+				value: 2,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			clubs:{
-                name: 'A of Clubs',
-                value: 1,
-                img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				name: 'Two of Clubs',
+				value: 2,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			spades:{
-                name: 'A of Spades',
-                value: 1,
-                img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				name: 'Two of Spades',
+				value: 2,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			}
 
-        },
-	two: {
-        hearts:{
-            name: 'Two of Hearts',
-            value: 2,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		diamonds:{
-            name: 'Two of Diamonds',
-            value: 2,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		clubs:{
-            name: 'Two of Clubs',
-            value: 2,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		spades:{
-            name: 'Two of Spades',
-            value: 2,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		}
-
-    },
-
-	three: {
-		hearts:{
-            name: 'Three of Hearts',
-            value: 3,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		diamonds:{
-            name: 'Three of Diamonds',
-            value: 3,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		clubs:{
-            name: 'Three of Clubs',
-            value: 3,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		spades:{
-            name: 'Three of Spades',
-            value: 3,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		}
-		
-	},
-
-	four: {
-        hearts: {
-            name: 'Four of Hearts',
-            value: 4,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		diamonds: {
-            name: 'Four of Diamonds',
-            value: 4,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		clubs: {
-            name: 'Four of Clubs',
-            value: 4,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		spades: {
-            name: 'Four of Spades',
-            value: 4,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		}
-    },
-
-    five: {
-
-        hearts: {
-            name: 'Five of Hearts',
-            value: 5,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		diamonds:{
-            name: 'Five of Diamonds',
-            value: 5,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		clubs:{
-            name: 'Five of Clubs',
-            value: 5,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		spades:{
-            name: 'Five of Spades',
-            value: 5,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		}
-    },
-
-    six: {
-
-        hearts: {
-            name: 'Six of Hearts',
-            value: 6,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		diamonds:{
-            name: 'Six of Diamonds',
-            value: 6,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		clubs:{
-            name: 'Six of Clubs',
-            value: 6,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		spades:{
-            name: 'Six of Spades',
-            value: 6,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		}
-    },
-
-    seven: {
-
-        hearts: {
-            name: 'Seven of Hearts',
-            value: 7,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		diamonds:{
-            name: 'Seven of Diamonds',
-            value: 7,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		clubs:{
-            name: 'Seven of Clubs',
-            value: 7,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		spades:{
-            name: 'Seven of Spades',
-            value: 7,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		}
-    },
-
-    eight: {
-
-        hearts: {
-            name: 'Eight of Hearts',
-            value: 8,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		diamonds:{
-            name: 'Eight of Diamonds',
-            value: 8,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		clubs:{
-            name: 'Eight of Clubs',
-            value: 8,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		spades:{
-            name: 'Eight of Spades',
-            value: 8,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-    },
-
-    nine: {
-
-        hearts: {
-            name: 'Nine of Hearts',
-            value: 9,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		diamonds:{
-            name: 'Nine of Diamonds',
-            value: 9,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		clubs:{
-            name: 'Nine of Clubs',
-            value: 9,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
-		},
-		spades:{
-            name: 'Nine of Spades',
-            value: 9,
-            img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-			//'U+1F0B1 🂱'
 		},
 
-		ten: {
+		three: {
+			hearts:{
+				name: 'Three of Hearts',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			diamonds:{
+				name: 'Three of Diamonds',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			clubs:{
+				name: 'Three of Clubs',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			spades:{
+				name: 'Three of Spades',
+				value: 3,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			}
+			
+		},
+
+		four: {
+			hearts: {
+				name: 'Four of Hearts',
+				value: 4,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			diamonds: {
+				name: 'Four of Diamonds',
+				value: 4,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			clubs: {
+				name: 'Four of Clubs',
+				value: 4,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			spades: {
+				name: 'Four of Spades',
+				value: 4,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			}
+		},
+
+		five: {
 
 			hearts: {
-				name: 'Ten of Hearts',
-				value: 10,
+				name: 'Five of Hearts',
+				value: 5,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			diamonds:{
-				name: 'Ten of Diamonds',
-				value: 10,
+				name: 'Five of Diamonds',
+				value: 5,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			clubs:{
-				name: 'Ten of Clubs',
-				value: 10,
+				name: 'Five of Clubs',
+				value: 5,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			spades:{
-				name: 'Ten of Spades',
-				value: 10,
+				name: 'Five of Spades',
+				value: 5,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			}
 		},
 
-		jack: {
+		six: {
 
 			hearts: {
-				name: 'Jack of Hearts',
-				value: 3,
+				name: 'Six of Hearts',
+				value: 6,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			diamonds:{
-				name: 'Jack of Diamonds',
-				value: 3,
+				name: 'Six of Diamonds',
+				value: 6,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			clubs:{
-				name: 'Jack of Clubs',
-				value: 3,
+				name: 'Six of Clubs',
+				value: 6,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			spades:{
-				name: 'Jack of Spades',
-				value: 3,
+				name: 'Six of Spades',
+				value: 6,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			}
 		},
 
-		queen: {
+		seven: {
 
 			hearts: {
-				name: 'Queen of Hearts',
-				value: 3,
+				name: 'Seven of Hearts',
+				value: 7,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			diamonds:{
-				name: 'Queen of Diamonds',
-				value: 3,
+				name: 'Seven of Diamonds',
+				value: 7,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			clubs:{
-				name: 'Queen of Clubs',
-				value: 3,
+				name: 'Seven of Clubs',
+				value: 7,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			spades:{
-				name: 'Queen of Spades',
-				value: 3,
+				name: 'Seven of Spades',
+				value: 7,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			}
 		},
 
-		king: {
+		eight: {
 
 			hearts: {
-				name: 'King of Hearts',
-				value: 3,
+				name: 'Eight of Hearts',
+				value: 8,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			diamonds:{
-				name: 'King of Diamonds',
-				value: 3,
+				name: 'Eight of Diamonds',
+				value: 8,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			clubs:{
-				name: 'King of Clubs',
-				value: 3,
+				name: 'Eight of Clubs',
+				value: 8,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
 			spades:{
-				name: 'King of Spades',
-				value: 3,
-				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
-				//'U+1F0B1 🂱'
-			}
-		},
-
-		joker: {
-
-			joker1: {
-				name: 'Joker A',
-				value: 10,
+				name: 'Eight of Spades',
+				value: 8,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			},
-			joker2:{
-				name: 'Joker B',
-				value: 10,
+		},
+
+		nine: {
+
+			hearts: {
+				name: 'Nine of Hearts',
+				value: 9,
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
+			},
+			diamonds:{
+				name: 'Nine of Diamonds',
+				value: 9,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			clubs:{
+				name: 'Nine of Clubs',
+				value: 9,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			spades:{
+				name: 'Nine of Spades',
+				value: 9,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+
+			ten: {
+
+				hearts: {
+					name: 'Ten of Hearts',
+					value: 10,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				diamonds:{
+					name: 'Ten of Diamonds',
+					value: 10,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				clubs:{
+					name: 'Ten of Clubs',
+					value: 10,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				spades:{
+					name: 'Ten of Spades',
+					value: 10,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				}
+			},
+
+			jack: {
+
+				hearts: {
+					name: 'Jack of Hearts',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				diamonds:{
+					name: 'Jack of Diamonds',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				clubs:{
+					name: 'Jack of Clubs',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				spades:{
+					name: 'Jack of Spades',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				}
+			},
+
+			queen: {
+
+				hearts: {
+					name: 'Queen of Hearts',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				diamonds:{
+					name: 'Queen of Diamonds',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				clubs:{
+					name: 'Queen of Clubs',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				spades:{
+					name: 'Queen of Spades',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				}
+			},
+
+			king: {
+
+				hearts: {
+					name: 'King of Hearts',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				diamonds:{
+					name: 'King of Diamonds',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				clubs:{
+					name: 'King of Clubs',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				spades:{
+					name: 'King of Spades',
+					value: 3,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				}
+			},
+
+			joker: {
+
+				joker1: {
+					name: 'Joker A',
+					value: 10,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				},
+				joker2:{
+					name: 'Joker B',
+					value: 10,
+					img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+					//'U+1F0B1 🂱'
+				}
 			}
 		}
-    }
-  
+	
+	}
 }
 
 /*

@@ -1,5 +1,8 @@
 //Originally refactored from Python
 
+//Imports
+import cardDeck from 'deck.js'
+
 //Globals
 
 let myDeck = {}
