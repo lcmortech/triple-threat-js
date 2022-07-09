@@ -415,6 +415,22 @@ cardDeck = {
 				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
 				//'U+1F0B1 🂱'
 			}
+		},
+
+		joker: {
+
+			joker1: {
+				name: 'Joker A',
+				value: 10,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			},
+			joker2:{
+				name: 'Joker B',
+				value: 10,
+				img: 'http://clipart-library.com/new_gallery/939134_ace-of-hearts-png.png'
+				//'U+1F0B1 🂱'
+			}
 		}
     }
   
