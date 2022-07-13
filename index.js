@@ -16,3 +16,4 @@ let testConsole = document.querySelector('#testConsole')
 //Actions (Functions)
 let currHand = cardDeck.keys()
 testConsole.textContent = 'test here'
+document.write(currHand)
