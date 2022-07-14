@@ -1,0 +1,20 @@
+{
+  "name": "triple-threat",
+  "version": "1.0.0",
+  "description": "A simple card game, originally done as a sandbox game while learning python",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rg326/triple-threat-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rg326/triple-threat-js/issues"
+  },
+  "homepage": "https://github.com/rg326/triple-threat-js#readme"
+}
