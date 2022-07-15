@@ -7,8 +7,9 @@ import cardDeck from 'deck.js'
 
 let myDeck = {}
 let compDeck = {}
-let myTurn = random.sample(list(hand), 3)
-let compTurn = random.sample(list(hand), 3)
+//let myTurn = random.sample(list(hand), 3)
+let myTurn = Math.random
+//let compTurn = random.sample(list(hand), 3)
 let deckContainer = document.querySelector('#deckContainer')
 let scoreBox = document.querySelector('#scoreBox')
 
@@ -20,3 +21,6 @@ let currHand = cardDeck.keys()
 testConsole.textContent = 'test here'
 console.log(currHand)
 
+const playTurn = ()=> {
+    return null
+}
