@@ -13,6 +13,11 @@ let myTurn = Math.random
 let deckContainer = document.querySelector('#deckContainer')
 let scoreBox = document.querySelector('#scoreBox')
 
+myScore = 0
+compScore = 0
+myHand = 0
+compHand = 0                
+
 //add loops
 let testConsole = document.querySelector('#testConsole')
 
