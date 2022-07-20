@@ -27,5 +27,6 @@ testConsole.textContent = 'test here'
 console.log(currHand)
 
 const playTurn = ()=> {
-    return null
+    let myTurn = Math.random()
 }
+//have to figure out how to randomize properties from the deck and make it an array
